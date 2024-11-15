@@ -22,8 +22,8 @@ const Copyright = () => {
 	return (
 		<Typography variant="body2" color="primary" align="center">
 			{"Copyright "}
- 			<Link color="primary" href="#">
- 				{ nomeEmpresa } - v { versionSystem }
+ 			<Link color="primary" href="https://oloapp.site/">
+ 				v { versionSystem }
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
@@ -36,7 +36,7 @@ const useStyles = makeStyles(theme => ({
 		width: "100vw",
 		height: "100vh",
 		//background: "linear-gradient(to right, #76EE00 , #76EE00 , #458B00)",
-		backgroundImage: "url(https://i.imgur.com/CGby9tN.png)",
+		backgroundImage: "url(https://i.postimg.cc/Twxz3d62/fondo.png)",
 		backgroundRepeat: "no-repeat",
 		backgroundSize: "100% 100%",
 		backgroundPosition: "center",
