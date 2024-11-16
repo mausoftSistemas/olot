@@ -378,7 +378,7 @@ ticketsManager: {
   },
 },
 ticketsQueueSelect: {
-  placeholder: "Colas",
+  placeholder: "Sectores",
 },
 tickets: {
   toasts: {
@@ -438,7 +438,7 @@ transferTicketModal: {
       tickets: "Tickets",
       quickMessages: "Respuestas Rápidas",
       contacts: "Contactos",
-      queues: "Colas y Chatbot",
+      queues: "Sectores y Chatbot",
       tags: "Etiquetas",
       administration: "Administración",
       users: "Usuarios",
@@ -480,7 +480,7 @@ transferTicketModal: {
     confirmationModal: {
       deleteTitle: "Eliminar",
       deleteMessage:
-        "¿Estás seguro? ¡Esta acción no se puede deshacer! y se eliminará de las colas y conexiones vinculadas",
+        "¿Estás seguro? ¡Esta acción no se puede deshacer! y se eliminará de los Sectores y conexiones vinculadas",
     },
   },
   files: {
@@ -747,7 +747,7 @@ transferTicketModal: {
     title: "Configuraciones de Campañas",
   },
   queues: {
-    title: "Colas y Chatbot",
+    title: "Sectores y Chatbot",
     table: {
       id:"ID",
       name: "Nombre",
@@ -766,7 +766,7 @@ transferTicketModal: {
     },
   },
   queueSelect: {
-    inputLabel: "Colas",
+    inputLabel: "Sector",
   },
   users: {
     title: "Usuarios",
