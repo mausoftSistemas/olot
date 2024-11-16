@@ -166,7 +166,7 @@ const SettingsCustom = () => {
           onChange={handleTabChange}
           className={classes.tab}
         >
-          <Tab label="Opções" value={"options"} />
+          <Tab label="Opciones" value={"options"} />
           {schedulesEnabled && <Tab label="Horários" value={"schedules"} />}
 		  {isSuper() ? <Tab label="Logo" value={"uploader"} /> : null}
           {isSuper() ? <Tab label="Empresas" value={"companies"} /> : null}
