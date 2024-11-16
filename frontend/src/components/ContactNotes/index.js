@@ -190,7 +190,7 @@ export function ContactNotes ({ ticket }) {
                                     </Grid>
                                     <Grid xs={6} item>
                                         <ButtonWithSpinner loading={loading} color="primary" type="submit" variant="contained" autoFocus fullWidth>
-                                            Salvar
+                                            Guardar
                                         </ButtonWithSpinner>
                                     </Grid>
                                 </Grid>
