@@ -131,7 +131,7 @@ export function HelpManagerForm (props) {
                         ) : null}
                         <Grid sm={3} md={1} item>
                             <ButtonWithSpinner className={classes.fullWidth} loading={loading} type="submit" variant="contained" color="primary">
-                                Salvar
+                                Guardar
                             </ButtonWithSpinner>
                         </Grid>
                     </Grid>
