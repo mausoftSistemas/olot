@@ -34,7 +34,7 @@ const messages = {
           users: "Usuarios",
           connections: "Conexiones",
           campaigns: "Campañas",
-          schedules: "Agendamientos",
+          schedules: "Agenda",
           enabled: "Habilitadas",
           disabled: "Deshabilitadas",
           clear: "Cancelar",
@@ -333,13 +333,13 @@ const messages = {
       },
       scheduleModal: {
         title: {
-          add: "Nuevo Agendamiento",
-          edit: "Editar Agendamiento",
+          add: "Nuevo",
+          edit: "Editar",
         },
         form: {
           body: "Mensaje",
           contact: "Contacto",
-          sendAt: "Fecha de Agendamiento",
+          sendAt: "Fecha",
           sentAt: "Fecha de Envío",
         },
         buttons: {
@@ -347,7 +347,7 @@ const messages = {
           okEdit: "Guardar",
           cancel: "Cancelar",
         },
-        success: "Agendamiento guardado con éxito.",
+        success: "Guardado con éxito.",
       },
       tagModal: {
         title: {
@@ -380,7 +380,7 @@ const messages = {
         },
       },
       ticketsQueueSelect: {
-        placeholder: "Colas",
+        placeholder: "Sectores",
       },
       tickets: {
         toasts: {
@@ -440,14 +440,14 @@ const messages = {
           tickets: "Tickets",
           quickMessages: "Respuestas Rápidas",
           contacts: "Contactos",
-          queues: "Colas y Chatbot",
+          queues: "Sectores y Chatbot",
           tags: "Etiquetas",
           administration: "Administración",
           users: "Usuarios",
           settings: "Configuraciones",
           helps: "Ayuda",
           messagesAPI: "API",
-          schedules: "Agendamientos",
+          schedules: "Agenda",
           campaigns: "Campañas",
           annoucements: "Anuncios",
           chats: "Chat Interno",
@@ -482,7 +482,7 @@ const messages = {
         confirmationModal: {
           deleteTitle: "Eliminar",
           deleteMessage:
-            "¿Estás seguro? ¡Esta acción no se puede deshacer! y se eliminará de las colas y conexiones vinculadas",
+            "¿Estás seguro? ¡Esta acción no se puede deshacer! y se eliminará de los Sectores y conexiones vinculadas",
         },
       },
       files: {
@@ -749,7 +749,7 @@ const messages = {
         title: "Configuraciones de Campañas",
       },
       queues: {
-        title: "Colas y Chatbot",
+        title: "Sectores y Chatbot",
         table: {
           id: "ID",
           name: "Nombre",
@@ -768,7 +768,7 @@ const messages = {
         },
       },
       queueSelect: {
-        inputLabel: "Colas",
+        inputLabel: "Sector",
       },
       users: {
         title: "Usuarios",
@@ -795,24 +795,24 @@ const messages = {
         title: "Centro de Ayuda",
       },
       schedules: {
-        title: "Agendamientos",
+        title: "Agenda",
         confirmationModal: {
-          deleteTitle: "¿Estás seguro que quieres eliminar este Agendamiento?",
+          deleteTitle: "¿Estás seguro que quieres eliminar esta planificación?",
           deleteMessage: "Esta acción no se puede deshacer.",
         },
         table: {
           contact: "Contacto",
           body: "Mensaje",
-          sendAt: "Fecha de Agendamiento",
+          sendAt: "Fecha",
           sentAt: "Fecha de Envío",
           status: "Estado",
           actions: "Acciones",
         },
         buttons: {
-          add: "Nuevo Agendamiento",
+          add: "Nuevo",
         },
         toasts: {
-          deleted: "Agendamiento eliminado correctamente.",
+          deleted: "Eliminado correctamente.",
         },
       },
       tags: {

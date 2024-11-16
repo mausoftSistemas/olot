@@ -331,13 +331,13 @@ userModal: {
 },
 scheduleModal: {
   title: {
-    add: "Nuevo Agendamiento",
-    edit: "Editar Agendamiento",
+    add: "Nuevo",
+    edit: "Editar",
   },
   form: {
     body: "Mensaje",
     contact: "Contacto",
-    sendAt: "Fecha de Agendamiento",
+    sendAt: "Fecha",
     sentAt: "Fecha de Envío",
   },
   buttons: {
@@ -345,7 +345,7 @@ scheduleModal: {
     okEdit: "Guardar",
     cancel: "Cancelar",
   },
-  success: "Agendamiento guardado con éxito.",
+  success: "Guardado con éxito.",
 },
 tagModal: {
   title: {
@@ -445,7 +445,7 @@ transferTicketModal: {
       settings: "Configuraciones",
       helps: "Ayuda",
       messagesAPI: "API",
-      schedules: "Agendamientos",
+      schedules: "Agenda",
       campaigns: "Campañas",
       annoucements: "Anuncios",
       chats: "Chat Interno",
@@ -793,24 +793,24 @@ transferTicketModal: {
     title: "Centro de Ayuda",
   },
   schedules: {
-    title: "Agendamientos",
+    title: "Agenda",
     confirmationModal: {
-      deleteTitle: "¿Estás seguro que quieres eliminar este Agendamiento?",
+      deleteTitle: "¿Estás seguro que quieres eliminar esta planificación?",
       deleteMessage: "Esta acción no se puede deshacer.",
     },
     table: {
       contact: "Contacto",
       body: "Mensaje",
-      sendAt: "Fecha de Agendamiento",
+      sendAt: "Fecha de planificación",
       sentAt: "Fecha de Envío",
       status: "Estado",
       actions: "Acciones",
     },
     buttons: {
-      add: "Nuevo Agendamiento",
+      add: "Nuevo",
     },
     toasts: {
-      deleted: "Agendamiento eliminado correctamente.",
+      deleted: "Eliminado correctamente.",
     },
   },
   tags: {
