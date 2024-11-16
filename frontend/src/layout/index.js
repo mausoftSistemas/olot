@@ -266,7 +266,7 @@ const LoggedInLayout = ({ children, themeToggle }) => {
 
     socket.on(`company-${companyId}-auth`, (data) => {
       if (data.user.id === +userId) {
-        toastError("Sua conta foi acessada em outro computador.");
+        toastError("Su cuenta fue accedida en otro dispositivo.");
         setTimeout(() => {
           localStorage.clear();
           window.location.reload();
@@ -394,11 +394,11 @@ const LoggedInLayout = ({ children, themeToggle }) => {
             {/* {greaterThenSm && user?.profile === "admin" && getDateAndDifDays(user?.company?.dueDate).difData < 7 ? ( */}
             {greaterThenSm && user?.profile === "admin" && user?.company?.dueDate ? (
               <>
-                Hola <b>{user.name}</b>, Bienvenido, <b>{user?.company?.name}</b>! (Licencia válida hasta {dateToClient(user?.company?.dueDate)})
+                Hola <b>{user.name}</b>, ¡Bienvenido, <b>{user?.company?.name}</b>! (Licencia válida hasta {dateToClient(user?.company?.dueDate)})
               </>
             ) : (
               <>
-                Hola  <b>{user.name}</b>, Bienvenido a <b>{user?.company?.name}</b>!
+                Hola <b>{user.name}</b>, ¡Bienvenido a <b>{user?.company?.name}</b>!
               </>
             )}
           </Typography>
