@@ -133,7 +133,7 @@ export default function Options(props) {
   const [asaasType, setAsaasType] = useState("");
   const [loadingAsaasType, setLoadingAsaasType] = useState(false);
   
-  // recursos a mais...
+  // recursos a más...
   const [trial, settrial] = useState('3');
   const [loadingtrial, setLoadingtrial] = useState(false);
 
@@ -253,7 +253,7 @@ export default function Options(props) {
       key: "userRating",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingUserRating(false);
   }
 
@@ -264,7 +264,7 @@ export default function Options(props) {
       key: 'allowregister',
       value,
     });
-    toast.success('Operação atualizada com sucesso.');
+    toast.success('Operación actualizada con éxito.');
     setLoadingallowregister(false);
   }
   
@@ -275,7 +275,7 @@ export default function Options(props) {
       key: "sendGreetingMessageOneQueues",
       value,
     });
-	toast.success("Operação atualizada com sucesso.");
+	toast.success("Operación actualizada con éxito.");
     setLoadingSendGreetingMessageOneQueues(false);
   }
 
@@ -286,7 +286,7 @@ export default function Options(props) {
       key: 'viewregister',
       value,
     });
-    toast.success('Operação atualizada com sucesso.');
+    toast.success('Operación actualizada con éxito.');
     setLoadingviewregister(false);
   }
   
@@ -297,7 +297,7 @@ export default function Options(props) {
       key: 'trial',
       value,
     });
-    toast.success('Operação atualizada com sucesso.');
+    toast.success('Operación actualizada con éxito.');
     setLoadingtrial(false);
   }
 
@@ -310,7 +310,7 @@ export default function Options(props) {
       value,
     });
     //toast.success("Oraçãpeo atualizada com sucesso.");
-    toast.success('Operação atualizada com sucesso.', {
+    toast.success('Operación actualizada con éxito.', {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,
@@ -332,7 +332,7 @@ export default function Options(props) {
       key: "call",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingCallType(false);
   }
 
@@ -343,7 +343,7 @@ export default function Options(props) {
       key: "chatBotType",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingChatbotType(false);
   }
 
@@ -354,7 +354,7 @@ export default function Options(props) {
       key: "CheckMsgIsGroup",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setCheckMsgIsGroupType(false);
     /*     if (typeof scheduleTypeChanged === "function") {
           scheduleTypeChanged(value);
@@ -369,7 +369,7 @@ export default function Options(props) {
       key: "sendGreetingAccepted",
       value,
     });
-	toast.success("Operação atualizada com sucesso.");
+	toast.success("Operación actualizada con éxito.");
     setLoadingSendGreetingAccepted(false);
   }  
   
@@ -384,7 +384,7 @@ export default function Options(props) {
       value,
     });
 
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingSettingsTransfTicket(false);
   } 
  
@@ -395,7 +395,7 @@ export default function Options(props) {
       key: "ipixc",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingIpIxcType(false);
   }
 
@@ -406,7 +406,7 @@ export default function Options(props) {
       key: "tokenixc",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingTokenIxcType(false);
   }
 
@@ -417,7 +417,7 @@ export default function Options(props) {
       key: "ipmkauth",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingIpMkauthType(false);
   }
 
@@ -428,7 +428,7 @@ export default function Options(props) {
       key: "clientidmkauth",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingClientIdMkauthType(false);
   }
 
@@ -439,7 +439,7 @@ export default function Options(props) {
       key: "clientsecretmkauth",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingClientSecrectMkauthType(false);
   }
 
@@ -450,7 +450,7 @@ export default function Options(props) {
       key: "asaas",
       value,
     });
-    toast.success("Operação atualizada com sucesso.");
+    toast.success("Operación actualizada con éxito.");
     setLoadingAsaasType(false);
   }
   return (
@@ -458,7 +458,7 @@ export default function Options(props) {
       <Grid spacing={3} container>
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
-            <InputLabel id="ratings-label">Avaliações</InputLabel>
+            <InputLabel id="ratings-label">Evaluaciones</InputLabel>
             <Select
               labelId="ratings-label"
               value={userRating}
@@ -477,7 +477,7 @@ export default function Options(props) {
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
             <InputLabel id="schedule-type-label">
-              Gerenciamento de Expediente
+              Gestión de Horarios
             </InputLabel>
             <Select
               labelId="schedule-type-label"
@@ -498,7 +498,7 @@ export default function Options(props) {
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
             <InputLabel id="group-type-label">
-              Ignorar Mensagens de Grupos
+              Ignorar Mensajes de Grupos
             </InputLabel>
             <Select
               labelId="group-type-label"
@@ -518,7 +518,7 @@ export default function Options(props) {
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
             <InputLabel id="call-type-label">
-              Aceitar Chamada
+              Aceptar Llamada
             </InputLabel>
             <Select
               labelId="call-type-label"
@@ -527,8 +527,8 @@ export default function Options(props) {
                 handleCallType(e.target.value);
               }}
             >
-              <MenuItem value={"disabled"}>Não Aceitar</MenuItem>
-              <MenuItem value={"enabled"}>Aceitar</MenuItem>
+              <MenuItem value={"disabled"}>No aceptar</MenuItem>
+              <MenuItem value={"enabled"}>Aceptar</MenuItem>
             </Select>
             <FormHelperText>
               {loadingCallType && "Atualizando..."}
@@ -538,7 +538,7 @@ export default function Options(props) {
        <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
             <InputLabel id="chatbot-type-label">
-              Tipo Chatbot
+              Tipo de Chatbot
             </InputLabel>
             <Select
               labelId="chatbot-type-label"
@@ -559,7 +559,7 @@ export default function Options(props) {
 		{/* ENVIAR SAUDAÇÃO AO ACEITAR O TICKET */}
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
-            <InputLabel id="sendGreetingAccepted-label">Enviar saudação ao aceitar o ticket</InputLabel>
+            <InputLabel id="sendGreetingAccepted-label">Enviar saludo al aceptar el ticket</InputLabel>
             <Select
               labelId="sendGreetingAccepted-label"
               value={SendGreetingAccepted}
@@ -580,7 +580,7 @@ export default function Options(props) {
 		{/* ENVIAR MENSAGEM DE TRANSFERENCIA DE SETOR/ATENDENTE */}
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
-            <InputLabel id="sendMsgTransfTicket-label">Enviar mensagem de transferencia de Fila/agente</InputLabel>
+            <InputLabel id="sendMsgTransfTicket-label">Enviar mensaje de transferencia de Fila/Agente</InputLabel>
             <Select
               labelId="sendMsgTransfTicket-label"
               value={SettingsTransfTicket}
@@ -600,7 +600,7 @@ export default function Options(props) {
 		{/* ENVIAR SAUDAÇÃO QUANDO HOUVER SOMENTE 1 FILA */}
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
-            <InputLabel id="sendGreetingMessageOneQueues-label">Enviar saudação quando houver somente 1 fila</InputLabel>
+            <InputLabel id="sendGreetingMessageOneQueues-label">Enviar saludo cuando haya solo 1 fila</InputLabel>
             <Select
               labelId="sendGreetingMessageOneQueues-label"
               value={sendGreetingMessageOneQueues}
@@ -644,7 +644,7 @@ export default function Options(props) {
             <Grid xs={12} sm={12} md={12} item>
                 <FormControl className={classes.selectContainer}>
                   <InputLabel id='allowregister-label'>
-                    Registro (Inscrição) Permitida?
+                    Registro (Inscripción) Permitido?
                   </InputLabel>
                   <Select
                     labelId='allowregister-label'
@@ -665,7 +665,7 @@ export default function Options(props) {
 				  <Grid xs={12} sm={12} md={12} item>
                 <FormControl className={classes.selectContainer}>
                   <InputLabel id='viewregister-label'>
-                    Registro (Inscrição) Visível?
+                    Registro (Inscripción) Visible?
                   </InputLabel>
                   <Select
                     labelId='viewregister-label'
@@ -685,7 +685,7 @@ export default function Options(props) {
 			  
 			                <Grid xs={12} sm={12} md={12} item>
                 <FormControl className={classes.selectContainer}>
-                  <InputLabel id='trial-label'>Tempo de Trial?</InputLabel>
+                  <InputLabel id='trial-label'>¿Tiempo de Prueba?</InputLabel>
                   <Select
                     labelId='trial-label'
                     value={trial}
