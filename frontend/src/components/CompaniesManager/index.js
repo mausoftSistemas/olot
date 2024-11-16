@@ -381,7 +381,7 @@ export function CompanyForm(props) {
                       variant="contained"
                       color="primary"
                     >
-                      Salvar
+                      Guardar
                     </ButtonWithSpinner>
                   </Grid>
                 </Grid>
