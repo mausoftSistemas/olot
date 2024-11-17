@@ -487,7 +487,7 @@ export default function Options(props) {
               }}
             >
               <MenuItem value={"disabled"}>Desabilitado</MenuItem>
-              <MenuItem value={"queue"}>Fila</MenuItem>
+              <MenuItem value={"queue"}>Sector</MenuItem>
               <MenuItem value={"company"}>Empresa</MenuItem>
             </Select>
             <FormHelperText>
@@ -507,11 +507,11 @@ export default function Options(props) {
                 handleGroupType(e.target.value);
               }}
             >
-              <MenuItem value={"disabled"}>Desativado</MenuItem>
-              <MenuItem value={"enabled"}>Ativado</MenuItem>
+              <MenuItem value={"disabled"}>Desabilitado</MenuItem>
+              <MenuItem value={"enabled"}>Habilitado</MenuItem>
             </Select>
             <FormHelperText>
-              {loadingScheduleType && "Atualizando..."}
+              {loadingScheduleType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -531,7 +531,7 @@ export default function Options(props) {
               <MenuItem value={"enabled"}>Aceptar</MenuItem>
             </Select>
             <FormHelperText>
-              {loadingCallType && "Atualizando..."}
+              {loadingCallType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -552,7 +552,7 @@ export default function Options(props) {
              {/*<MenuItem value={"list"}>Lista</MenuItem>*/}
             </Select>
             <FormHelperText>
-              {loadingChatbotType && "Atualizando..."}
+              {loadingChatbotType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -571,7 +571,7 @@ export default function Options(props) {
               <MenuItem value={"enabled"}>Habilitado</MenuItem>
             </Select>
             <FormHelperText>
-              {loadingSendGreetingAccepted && "Atualizando..."}
+              {loadingSendGreetingAccepted && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -580,7 +580,7 @@ export default function Options(props) {
 		{/* ENVIAR MENSAGEM DE TRANSFERENCIA DE SETOR/ATENDENTE */}
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
-            <InputLabel id="sendMsgTransfTicket-label">Enviar mensaje de transferencia de Fila/Agente</InputLabel>
+            <InputLabel id="sendMsgTransfTicket-label">Enviar mensaje de transferencia de Sector/Agente</InputLabel>
             <Select
               labelId="sendMsgTransfTicket-label"
               value={SettingsTransfTicket}
@@ -600,7 +600,7 @@ export default function Options(props) {
 		{/* ENVIAR SAUDAÇÃO QUANDO HOUVER SOMENTE 1 FILA */}
         <Grid xs={12} sm={12} md={12} item>
           <FormControl className={classes.selectContainer}>
-            <InputLabel id="sendGreetingMessageOneQueues-label">Enviar saludo cuando haya solo 1 fila</InputLabel>
+            <InputLabel id="sendGreetingMessageOneQueues-label">Enviar saludo cuando haya solo 1 Sector</InputLabel>
             <Select
               labelId="sendGreetingMessageOneQueues-label"
               value={sendGreetingMessageOneQueues}
@@ -657,7 +657,7 @@ export default function Options(props) {
                     <MenuItem value={'enabled'}>Sim</MenuItem>
                   </Select>
                   <FormHelperText>
-                    {loadingallowregister && 'Atualizando...'}
+                    {loadingallowregister && 'Actualizando...'}
                   </FormHelperText>
                 </FormControl>
               </Grid>
@@ -678,7 +678,7 @@ export default function Options(props) {
                     <MenuItem value={'enabled'}>Sim</MenuItem>
                   </Select>
                   <FormHelperText>
-                    {loadingviewregister && 'Atualizando...'}
+                    {loadingviewregister && 'Actualizando...'}
                   </FormHelperText>
                 </FormControl>
               </Grid>
@@ -759,7 +759,7 @@ export default function Options(props) {
             >
             </TextField>
             <FormHelperText>
-              {loadingIpIxcType && "Atualizando..."}
+              {loadingIpIxcType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -778,7 +778,7 @@ export default function Options(props) {
             >
             </TextField>
             <FormHelperText>
-              {loadingTokenIxcType && "Atualizando..."}
+              {loadingTokenIxcType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -811,7 +811,7 @@ export default function Options(props) {
             >
             </TextField>
             <FormHelperText>
-              {loadingIpMkauthType && "Atualizando..."}
+              {loadingIpMkauthType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -849,7 +849,7 @@ export default function Options(props) {
             >
             </TextField>
             <FormHelperText>
-              {loadingClientSecrectMkauthType && "Atualizando..."}
+              {loadingClientSecrectMkauthType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
@@ -882,7 +882,7 @@ export default function Options(props) {
             >
             </TextField>
             <FormHelperText>
-              {loadingAsaasType && "Atualizando..."}
+              {loadingAsaasType && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
