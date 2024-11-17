@@ -358,7 +358,7 @@ const useStyles = makeStyles((theme) => ({
 	
 	    const handleSendMessage = async (id) => {
         
-        const msg = `{{ms}} *{{name}}*, meu nome é *${user?.name}* e agora vou prosseguir com seu atendimento!`;
+        const msg = `{{ms}} *{{name}}*, mi nombre es *${user?.name}* y ahora procederé con su atención!`;
         const message = {
             read: 1,
             fromMe: true,

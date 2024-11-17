@@ -154,7 +154,7 @@ const TicketListItem = ({ ticket }) => {
         <Tooltip
           arrow
           placement="right"
-          title={ticket.queue?.name || "Sem fila"}
+          title={ticket.queue?.name || "Sin fila"}
         >
           <span
             style={{ backgroundColor: ticket.queue?.color || "#7C7C7C" }}
@@ -179,7 +179,7 @@ const TicketListItem = ({ ticket }) => {
               {ticket.status === "closed" && (
                 <Badge
                   className={classes.closedBadge}
-                  badgeContent={"closed"}
+                  badgeContent={"cerrado"}
                   color="primary"
                 />
               )}
@@ -227,7 +227,7 @@ const TicketListItem = ({ ticket }) => {
         />
         {ticket.lastMessage ? (
   ticket.lastMessage.includes("VCARD") ? (
-    <Typography>Novo contato recebido...</Typography>
+    <Typography>Nuevo contacto recibido...</Typography>
   ) : (
     <MarkdownWrapper>{ticket.lastMessage}</MarkdownWrapper>
   )

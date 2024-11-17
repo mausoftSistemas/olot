@@ -48,7 +48,7 @@ const VCardPreview = ({ contact, numbers }) => {
                     padding: "20px",
                     outline: "none",
                 }}>
-                    <h2>Selecione a Fila</h2>
+                    <h2>Seleccione el Sector</h2>
                     {user.queues.map((queue) => (
                         <div key={queue.id}>
                             <Button onClick={() => handleQueueSelection(queue.id)}>
@@ -195,7 +195,7 @@ const handleCloseOrOpenTicket = (ticket) => {
                                             }}
                             disabled={!selectedContact.number || !isContactValid}
                         >
-                        {isContactValid ? "Conversar (Novo Ticket)" : "CONTATO FORA DO WHATSAPP"}
+                        {isContactValid ? "Conversar (Nuevo Ticket)" : "CONTACTO FUERA DE WHATSAPP"}
 
                         </Button>
                     </Grid>

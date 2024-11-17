@@ -41,8 +41,8 @@ function QuickMessagesTable(props) {
         return rows.map((message) => {
             return (
                 <TableRow key={message.id}>
-                    <TableCell align="center">{message.shortcode}</TableCell>
-                    <TableCell align="left">{message.message}</TableCell>
+                    <TableCell align="center">Atajo</TableCell>
+                    <TableCell align="left">Mensaje</TableCell>
                     { !readOnly ? (
                         <TableCell align="center">
                             <IconButton
@@ -69,10 +69,10 @@ function QuickMessagesTable(props) {
         <Table size="small">
             <TableHead>
                 <TableRow>
-                    <TableCell align="center">Atalho</TableCell>
-                    <TableCell align="left">Mensagem</TableCell>
+                    <TableCell align="center">Atajo</TableCell>
+                    <TableCell align="left">Mensaje</TableCell>
                     { !readOnly ? (
-                        <TableCell align="center">Ações</TableCell>
+                        <TableCell align="center">Acciones</TableCell>
                     ) : null}
                 </TableRow>
             </TableHead>

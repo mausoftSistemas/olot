@@ -76,7 +76,7 @@ function SchedulesForm(props) {
                       <Container>
                           <FastField
                             as={TextField}
-                            label="Dia da Semana"
+                            label="Día de la Semana"
                             name={`schedules[${index}].weekday`}
                             disabled
                             variant="outlined"
@@ -88,7 +88,7 @@ function SchedulesForm(props) {
                             >
                             {({ field }) => (
                               <NumberFormat
-                                label="Hora de Inicial"
+                                label="Hora de Inicio"
                                 {...field}
                                 variant="outlined"
                                 margin="dense"
@@ -103,7 +103,7 @@ function SchedulesForm(props) {
                             >
                             {({ field }) => (
                               <NumberFormat
-                                label="Hora de Final"
+                                label="Hora de Fin"
                                 {...field}
                                 variant="outlined"
                                 margin="dense"

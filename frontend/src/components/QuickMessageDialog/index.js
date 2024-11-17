@@ -70,7 +70,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const QuickeMessageSchema = Yup.object().shape({
-    shortcode: Yup.string().required("Obrigatório"),
+    shortcode: Yup.string().required("Obligatorio"),
     //   message: Yup.string().required("Obrigatório"),
 });
 
@@ -262,8 +262,8 @@ const QuickMessageDialog = ({ open, onClose, quickemessageId, reload }) => {
 											name="geral"
 											error={touched.geral && Boolean(errors.geral)}
 										  >
-											<MenuItem value={true}>Ativo</MenuItem>
-											<MenuItem value={false}>Inativo</MenuItem>
+											<MenuItem value={true}>Activo</MenuItem>
+											<MenuItem value={false}>Inactivo</MenuItem>
 										  </Field>
 										</FormControl>
 									  </Grid>

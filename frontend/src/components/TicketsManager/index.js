@@ -224,14 +224,14 @@ const TicketsManager = () => {
           color="primary"
           onClick={() => setNewTicketModalOpen(true)}
         >
-          {i18n.t("ticketsManager.buttons.newTicket")}
+          {'Nuevo Ticket'}
         </Button>
         <Can
           role={user.profile}
           perform="tickets-manager:showall"
           yes={() => (
             <FormControlLabel
-              label={i18n.t("tickets.buttons.showAll")}
+              label={'Mostrar todos'}
               labelPlacement="start"
               control={
                 <Switch
