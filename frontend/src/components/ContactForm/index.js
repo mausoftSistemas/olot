@@ -125,7 +125,7 @@ export function ContactForm ({ initialContact, onSave, onCancel }) {
                                 name="number"
                                 error={touched.number && Boolean(errors.number)}
                                 helperText={touched.number && errors.number}
-                                placeholder="5513912344321"
+                                placeholder="543884037756"
                                 variant="outlined"
                                 margin="dense"
                                 fullWidth
@@ -138,7 +138,7 @@ export function ContactForm ({ initialContact, onSave, onCancel }) {
                                 name="email"
                                 error={touched.email && Boolean(errors.email)}
                                 helperText={touched.email && errors.email}
-                                placeholder="Email address"
+                                placeholder="Dirección de correo electrónico"
                                 fullWidth
                                 margin="dense"
                                 variant="outlined"

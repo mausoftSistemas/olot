@@ -153,7 +153,7 @@ const ContactModal = ({ open, onClose, contactId, initialValues, onSave }) => {
 								</Typography>
 								<Field
 									as={TextField}
-									label={i18n.t("contactModal.form.name")}
+									label="Nombre"
 									name="name"
 									autoFocus
 									error={touched.name && Boolean(errors.name)}
@@ -164,22 +164,23 @@ const ContactModal = ({ open, onClose, contactId, initialValues, onSave }) => {
 								/>
 								<Field
 									as={TextField}
-									label={i18n.t("contactModal.form.number")}
+									label="Número"
 									name="number"
 									error={touched.number && Boolean(errors.number)}
 									helperText={touched.number && errors.number}
-									placeholder="5541998608485"
+									
+									placeholder="543884037756"
 									variant="outlined"
 									margin="dense"
 								/>
 								<div>
 									<Field
 										as={TextField}
-										label={i18n.t("contactModal.form.email")}
+										label="Dirección de correo electrónico"
 										name="email"
 										error={touched.email && Boolean(errors.email)}
 										helperText={touched.email && errors.email}
-										placeholder="Email address"
+										placeholder="Dirección de correo electrónico"
 										fullWidth
 										margin="dense"
 										variant="outlined"
@@ -239,7 +240,7 @@ const ContactModal = ({ open, onClose, contactId, initialValues, onSave }) => {
 													color="primary"
 													onClick={() => push({ name: "", value: "" })}
 												>
-													{`+ ${i18n.t("contactModal.buttons.addExtraInfo")}`}
+													{`+ Añadir información extra`}
 												</Button>
 											</div>
 										</>
@@ -253,7 +254,7 @@ const ContactModal = ({ open, onClose, contactId, initialValues, onSave }) => {
 									disabled={isSubmitting}
 									variant="outlined"
 								>
-									{i18n.t("contactModal.buttons.cancel")}
+									{"Cancelar"}
 								</Button>
 								<Button
 									type="submit"
@@ -263,8 +264,8 @@ const ContactModal = ({ open, onClose, contactId, initialValues, onSave }) => {
 									className={classes.btnWrapper}
 								>
 									{contactId
-										? `${i18n.t("contactModal.buttons.okEdit")}`
-										: `${i18n.t("contactModal.buttons.okAdd")}`}
+										? `Aceptar edición`
+										: `Aceptar adición`}
 									{isSubmitting && (
 										<CircularProgress
 											size={24}
