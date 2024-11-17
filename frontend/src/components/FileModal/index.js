@@ -82,10 +82,10 @@ const useStyles = makeStyles(theme => ({
 
 const FileListSchema = Yup.object().shape({
     name: Yup.string()
-        .min(3, "nome muito curto")
-        .required("Obrigatório"),
+        .min(3, "nombre muy corto")
+        .required("Obligatorio"),
     message: Yup.string()
-        .required("Obrigatório")
+        .required("Obligatorio")
 });
 
 const FilesModal = ({ open, onClose, fileListId, reload }) => {
@@ -319,7 +319,7 @@ const FilesModal = ({ open, onClose, fileListId, reload }) => {
                                     disabled={isSubmitting}
                                     variant="outlined"
                                 >
-                                    {i18n.t("fileModal.buttons.cancel")}
+                                    {"Cancelar"}
                                 </Button>
                                 <Button
                                     type="submit"
@@ -329,8 +329,8 @@ const FilesModal = ({ open, onClose, fileListId, reload }) => {
                                     className={classes.btnWrapper}
                                 >
                                     {fileListId
-                                        ? `${i18n.t("fileModal.buttons.okEdit")}`
-                                        : `${i18n.t("fileModal.buttons.okAdd")}`}
+                                        ? `Aceptar`
+                                        : `Agregar`}
                                     {isSubmitting && (
                                         <CircularProgress
                                             size={24}

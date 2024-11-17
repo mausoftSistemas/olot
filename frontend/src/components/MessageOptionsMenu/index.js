@@ -56,7 +56,7 @@ const MessageOptionsMenu = ({ message, menuOpen, handleClose, anchorEl }) => {
 				onClose={setConfirmationOpen}
 				onConfirm={handleDeleteMessage}
 			>
-				{i18n.t("messageOptionsMenu.confirmationModal.message")}
+				{'¿Estás seguro de que deseas eliminar este mensaje?'}
 			</ConfirmationModal>
 			<EditMessageModal
 				title={i18n.t("messageOptionsMenu.editMessageModal.title")}
@@ -65,7 +65,7 @@ const MessageOptionsMenu = ({ message, menuOpen, handleClose, anchorEl }) => {
 				onSave={handleEditMessage}
 				message={message}
 			>
-				{i18n.t("messageOptionsMenu.confirmationModal.message")}
+				{'¿Estás seguro de que deseas editar este mensaje?'}
 			</EditMessageModal>
 			<Menu
 				anchorEl={anchorEl}

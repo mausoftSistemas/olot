@@ -162,7 +162,7 @@ const ModalUsers = ({ open, onClose, userId, companyId }) => {
                   />
                   <Field
                     as={TextField}
-                    label={i18n.t("userModal.form.password")}
+                    label={'Contraseña'}
                     type="password"
                     name="password"
                     error={touched.password && Boolean(errors.password)}
@@ -232,7 +232,7 @@ const ModalUsers = ({ open, onClose, userId, companyId }) => {
                   disabled={isSubmitting}
                   variant="outlined"
                 >
-                  {i18n.t("userModal.buttons.cancel")}
+                  {'Cancelar'}
                 </Button>
                 <Button
                   type="submit"
