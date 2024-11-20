@@ -49,7 +49,7 @@ export default function TableAttendantsStatus(props) {
         return attendants.map((a, k) => (
             <TableRow key={k}>
                 <TableCell>Nombre</TableCell>
-                <TableCell align="center" title="1 - Malo, 2 - Aceptable, 3 - Excelente" className={classes.pointer}>
+                <TableCell align="center" title="1 - Malo, 2 - Regular, 3 - Bueno" className={classes.pointer}>
                     <RatingBox rating={a.rating} />
                 </TableCell>
                 <TableCell align="center">T.M. de Atención</TableCell>
