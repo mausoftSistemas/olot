@@ -346,22 +346,22 @@ const Campaigns = () => {
                   <TableCell align="center">
                     {campaign.contactListId
                       ? campaign.contactList.name
-                      : "Não definida"}
+                      : "No definida"}
                   </TableCell>
                   <TableCell align="center">
                     {campaign.whatsappId
                       ? campaign.whatsapp.name
-                      : "Não definido"}
+                      : "No definido"}
                   </TableCell>
                   <TableCell align="center">
                     {campaign.scheduledAt
                       ? datetimeToClient(campaign.scheduledAt)
-                      : "Sem agendamento"}
+                      : "Sin programación"}
                   </TableCell>
                   <TableCell align="center">
                     {campaign.completedAt
                       ? datetimeToClient(campaign.completedAt)
-                      : "Não concluída"}
+                      : "No concluida"}
                   </TableCell>
                   {/* <TableCell align="center">
                     {campaign.confirmation ? "Habilitada" : "Desabilitada"}
@@ -370,7 +370,7 @@ const Campaigns = () => {
                     {campaign.status === "EM_ANDAMENTO" && (
                       <IconButton
                         onClick={() => cancelCampaign(campaign)}
-                        title="Parar Campanha"
+                        title="Detener Campaña"
                         size="small"
                       >
                         <PauseCircleOutlineIcon />
@@ -379,7 +379,7 @@ const Campaigns = () => {
                     {campaign.status === "CANCELADA" && (
                       <IconButton
                         onClick={() => restartCampaign(campaign)}
-                        title="Parar Campanha"
+                        title="Reanudar Campaña"
                         size="small"
                       >
                         <PlayCircleOutlineIcon />

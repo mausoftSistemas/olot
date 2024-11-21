@@ -373,7 +373,7 @@ const MainListItems = (props) => {
               }}
               inset
               color="inherit">
-              "Administración"
+              Administración
             </ListSubheader>
 			
             {showCampaigns && (
@@ -447,7 +447,7 @@ const MainListItems = (props) => {
             {showIntegrations && (
               <ListItemLink
                 to="/queue-integration"
-                primary="Integración de Cola"
+                primary="Integraciónes"
                 icon={<DeviceHubOutlined />}
               />
             )}
@@ -467,7 +467,7 @@ const MainListItems = (props) => {
             />
             <ListItemLink
               to="/queues"
-              primary="Colas"
+              primary="Sectores & ChatBot"
               icon={<AccountTreeOutlinedIcon />}
             />
             <ListItemLink

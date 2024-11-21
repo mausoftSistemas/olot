@@ -134,10 +134,10 @@ const messages = {
           name: "Nombre",
           default: "Predeterminado",
           sendIdQueue: "Fila",
-          timeSendQueue: "Redireccionar a cola en X minutos",
-          queueRedirection: "Redirección de cola",
+          timeSendQueue: "Redireccionar a Sector en X minutos",
+          queueRedirection: "Redirección del Sector",
           outOfHoursMessage: "Mensaje de fuera de expediente",
-          queueRedirectionDesc: "Seleccione una fila para redirigir los contactos que no tienen cola",
+          queueRedirectionDesc: "Seleccione una fila para redirigir los contactos que no tienen Sector",
           prompt: "Prompt",
           expiresTicket: "Cerrar chats abiertos después de X minutos",
           expiresInactiveMessage: "Mensaje de cierre por inactividad",
@@ -252,7 +252,7 @@ const messages = {
         title: "Prompts",
         table: {
           name: "Nombre",
-          queue: "Sector/Cola",
+          queue: "Sector",
           max_tokens: "Máximo Tokens Respuesta",
           actions: "Acciones",
         },
@@ -289,8 +289,8 @@ const messages = {
       },
       queueModal: {
         title: {
-          add: "Agregar cola",
-          edit: "Editar cola",
+          add: "Agregar Sector",
+          edit: "Editar Sector",
         },
         form: {
           name: "Nombre",
@@ -300,7 +300,7 @@ const messages = {
           outOfHoursMessage: "Mensaje de fuera de horario",
           ratingMessage: "Mensaje de evaluación",
           token: "Token",
-          orderQueue: "Orden de la cola (Bot)",
+          orderQueue: "Orden del Sector (Bot)",
           integrationId: "Integración",
         },
         buttons: {
@@ -320,7 +320,7 @@ const messages = {
           password: "Contraseña",
           profile: "Perfil",
           whatsapp: "Conexión Predeterminada",
-          allTicket: "Ticket Sin Cola [Invisible]",
+          allTicket: "Ticket Sin Sector [Invisible]",
           allTicketEnabled: "Habilitado",
           allTicketDesabled: "Deshabilitado",
         },
@@ -404,8 +404,8 @@ const messages = {
       transferTicketModal: {
         title: "Transferir Ticket",
         fieldLabel: "Escribe para buscar usuarios",
-        fieldQueueLabel: "Transferir a cola",
-        fieldQueuePlaceholder: "Seleccione una cola",
+        fieldQueueLabel: "Transferir al Sector",
+        fieldQueuePlaceholder: "Seleccione un Sector",
         noOptions: "No se encontraron usuarios con ese nombre",
         buttons: {
           ok: "Transferir",
@@ -756,15 +756,15 @@ const messages = {
           color: "Color",
           greeting: "Mensaje de bienvenida",
           actions: "Acciones",
-          orderQueue: "Orden de la cola (bot)",
+          orderQueue: "Orden del Sector (bot)",
         },
         buttons: {
-          add: "Agregar cola",
+          add: "Agregar Sector",
         },
         confirmationModal: {
           deleteTitle: "Eliminar",
           deleteMessage:
-            "¿Estás seguro? ¡Esta acción no se puede deshacer! Los tickets de esta cola seguirán existiendo pero ya no tendrán ninguna cola asignada.",
+            "¿Estás seguro? ¡Esta acción no se puede deshacer! Los tickets de esta cola seguirán existiendo pero ya no tendrán ningun Sector asignada.",
         },
       },
       queueSelect: {

@@ -133,9 +133,9 @@ whatsappModal: {
     default: "Predeterminado",
     sendIdQueue: "Fila",
     timeSendQueue: "Redireccionar a cola en X minutos",
-    queueRedirection: "Redirección de cola",
+    queueRedirection: "Redirección de Sector",
     outOfHoursMessage: "Mensaje de fuera de expediente",
-    queueRedirectionDesc: "Seleccione una fila para redirigir los contactos que no tienen cola",
+    queueRedirectionDesc: "Seleccione una fila para redirigir los contactos que no tienen Sector",
     prompt: "Prompt",
     expiresTicket: "Cerrar chats abiertos después de X minutos",
     expiresInactiveMessage: "Mensaje de cierre por inactividad",
@@ -249,7 +249,7 @@ prompts: {
   title: "Prompts",
   table: {
     name: "Nombre",
-    queue: "Sector/Cola",
+    queue: "Sector/Fila",
     max_tokens: "Máximo Tokens Respuesta",
     actions: "Acciones",
   },
@@ -286,8 +286,8 @@ contactModal: {
 },
 queueModal: {
   title: {
-    add: "Agregar cola",
-    edit: "Editar cola",
+    add: "Agregar Sector",
+    edit: "Editar Sector",
   },
   form: {
     name: "Nombre",

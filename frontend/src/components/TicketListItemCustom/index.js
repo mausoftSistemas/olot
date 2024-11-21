@@ -363,7 +363,7 @@ const useStyles = makeStyles((theme) => ({
             read: 1,
             fromMe: true,
             mediaUrl: "",
-            body: `*Mensagem Automática:*\n${msg.trim()}`,
+            body: `*Mensaje Automático:*\n${msg.trim()}`,
         };
         try {
             await api.post(`/messages/${id}`, message);

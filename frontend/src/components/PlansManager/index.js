@@ -148,7 +148,7 @@ export function PlanManagerForm(props) {
                         <Grid xs={12} sm={6} md={1} item>
                             <Field
                                 as={TextField}
-                                label="Colas"
+                                label="Sectores"
                                 name="queues"
                                 variant="outlined"
                                 className={classes.fullWidth}
